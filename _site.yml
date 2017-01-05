@@ -1,0 +1,66 @@
+name: "online.vetu.fi"
+navbar:
+  title: "maakuntaviestin väliajat"
+  type: inverse
+  left:
+    - text: "Osuus 1"
+      menu:
+      - text: "3km"
+        href:  piste1.html
+      - text: "6km"
+        href:  piste2.html
+    - text: "Osuus 2"
+      menu:
+      - text: "3km"
+        href:  piste3.html
+      - text: "6km"
+        href:  piste4.html
+    - text: "Osuus 3"
+      menu:
+      - text: "3km"
+        href:  piste5.html
+      - text: "6km"
+        href:  piste6.html
+    - text: "Osuus 4"
+      menu:
+      - text: "3km"
+        href:  piste7.html
+      - text: "6km"
+        href:  piste8.html
+    - text: "Osuus 5"
+      menu:
+      - text: "3km"
+        href:  piste9.html
+      - text: "6km"
+        href:  piste10.html
+    - text: "Osuus 6"
+      menu:
+      - text: "3km"
+        href:  piste11.html
+      - text: "6km"
+        href:  piste12.html
+    - text: "Osuus 7"
+      menu:
+      - text: "3km"
+        href:  piste13.html
+      - text: "6km"
+        href:  piste14.html
+    - text: "Osuus 8"
+      menu:
+      - text: "3km"
+        href:  piste15.html
+      - text: "6km"
+        href:  piste16.html
+  right:
+#    - text: "Mistä on kyse?"
+#      img: plot/kela_logo.svg
+#      href: about.html
+    - icon: fa-info
+      href: http://markuskainu.fi
+output:
+  html_document:
+    theme: united
+    highlight: textmate
+#    include:
+#      after_body: footer.html
+#    css: styles.css

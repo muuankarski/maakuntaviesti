@@ -1,0 +1,480 @@
+- nr: 1
+  nimi: Nykarleby 1
+  os1: Christoffer Lindvall
+  os2: William Back
+  os3: Josephine Sundqvist
+  os4: Kasper Lönnbäck
+  os5: Julia Häger
+  os6: Benjamin Sundqvist
+  os7: Sonja Katajamäki
+  os8: Robin Eriksson
+- nr: 2
+  nimi: Nivala 1
+  os1: Sauli Päivärinta
+  os2: Tuuli Järviluoma
+  os3: Sanni Haikara
+  os4: Lauri Gummerus
+  os5: Elina Läspä
+  os6: Tuomas Ahola
+  os7: Saku Hautalahti
+  os8: Tuomas Järviluoma
+- nr: 3
+  nimi: Reisjärvi 1
+  os1: Miikka Kinnunen
+  os2: Juho Suni
+  os3: Peppi Leppälä
+  os4: Jaakko Halonen
+  os5: Johanna Niskakoski
+  os6: Jari Niskakoski
+  os7: Tuure Pesola
+  os8: Juho Halonen
+- nr: 4
+  nimi: Kronoby 1
+  os1: Eric Storvall
+  os2: Simon Dahlnäs
+  os3: Ellen Bäck
+  os4: Oscar Högnabba
+  os5: Fanny Storvall
+  os6: August Högnabba
+  os7: Axel Auren
+  os8: Hugo Karlström
+- nr: 5
+  nimi: Pyhäjärvi 1
+  os1: Jouni Komu
+  os2: Samppo Kumpumäki
+  os3: Jenna Rautiala
+  os4: Tuomas Nurkkala
+  os5: Merja Kuukasjärvi
+  os6: Tero Pesonen
+  os7: Jere Heinonen
+  os8: Markus Järvenpää
+- nr: 6
+  nimi: Haapajärvi 1
+  os1: Anssi Koirikivi
+  os2: Jussi Raappana
+  os3: Hanna Alahäivälä
+  os4: Juho Salmela
+  os5: Tiia Olkkonen
+  os6: Tero Seppälä
+  os7: Aleksi Salmela
+  os8: Risto Uusivirta
+- nr: 7
+  nimi: Veteli 1
+  os1: Tuomas Myllykoski
+  os2: Aapo Taipale
+  os3: Iida Haukilahti
+  os4: Pauli Mäkelä
+  os5: Tanja Rannila
+  os6: Joona Mäkelä
+  os7: Onni Mäkelä
+  os8: Kuisma Taipale
+- nr: 8
+  nimi: Pedersöre 1
+  os1: Erik Holm
+  os2: Axel Norrbacka
+  os3: Eveliina Suvanto
+  os4: Jere Ena
+  os5: Hanna Ray
+  os6: Tage Ray
+  os7: Robin Backlund
+  os8: Johan Ahlvik
+- nr: 9
+  nimi: Kalajoki 1
+  os1: Tapani Kärjä
+  os2: Jussi-Matti Rahja
+  os3: Iida Vuollet
+  os4: Simo Törnvall
+  os5: Susanna Juhola
+  os6: Matti Laitala
+  os7: Eelis Valikainen
+  os8: Juho Nikula
+- nr: 10
+  nimi: Pietarsaari 1
+  os1: Hans Mäenpää
+  os2: Anton Sjölund
+  os3: Teodora Westerlund
+  os4: Viktor Mäenpää
+  os5: Ida Mäenpää
+  os6: Tommy Haglund
+  os7: Robin Mäenpää
+  os8: Viljam Knif
+- nr:  11
+  nimi: Perho 1
+  os1: Ville Tuukkanen
+  os2: Severi Honkonen
+  os3: Veera Anttila
+  os4: Jussi Tuukkanen
+  os5: Karoliina Ukskoski
+  os6: Juho Lakanen
+  os7: Eetu Lakanen
+  os8: Tuomas Huopana
+- nr: 12
+  nimi: Larsmo 1
+  os1: Jonathan Lindqvist
+  os2: Filip Liljekvist
+  os3: Hanna Nyfors
+  os4: Henrik Ekstrand
+  os5: Annika Sjöström
+  os6: Niklas Dahllund
+  os7: Lucas Liljekvist
+  os8: Oskar Sjölund
+- nr: 13
+  nimi: Kokkola 1
+  os1: Filip Häggblom
+  os2: Olli Hautamäki
+  os3: Eerika Konu
+  os4: Joakim Björklind
+  os5: Elina Mäkitalo
+  os6: Andre Kurten
+  os7: Daniel Sorvisto
+  os8: Jonas Skog
+- nr: 14
+  nimi: Himanka 1
+  os1: Juuso Mattila
+  os2: Jaakko Mattila
+  os3: Anni Mäkinen
+  os4: Matti Lehtinen
+  os5: Henna Rautiainen
+  os6: Risto Pernu
+  os7: Kristian Hakala
+  os8: Markus Hakala
+- nr: 15
+  nimi: Ylivieska 1
+  os1: Roni Knuutila
+  os2: Miro Jylkkä
+  os3: Oona Kiljala
+  os4: Jukka-Pekka Ojala
+  os5: Anna-Kaisa Saari
+  os6: Jukka Nissilä
+  os7: Esa-Pekka Mustola
+  os8: Matti Myllylahti
+- nr: 16
+  nimi: Alavieska 1
+  os1: Aleksi Huhtakangas
+  os2: Anton Hannula
+  os3: Petra Alatalo
+  os4: Juha-Pekka Jokela
+  os5: Mia Sipilä
+  os6: Tomi Sipilä
+  os7: Werneri Pudas
+  os8: Arto Hemmilä
+- nr: 17
+  nimi: Haapajärvi 2
+  os1: Tero Kokkoniemi
+  os2: Valtteri Leskelä
+  os3: Laura Keskitalo
+  os4: Matti Keskitalo
+  os5: Emilia Pulkkinen
+  os6: Petteri Arovainio
+  os7: Mari Seppälä
+  os8: Hannu Niemelä
+- nr: 18
+  nimi: Haapajärvi 3
+  os1: Jouko Pikkarainen
+  os2: Eetu Honkala
+  os3: Jenniina Salmela
+  os4: Arto Koivuaho
+  os5: Aino Jääskeläinen
+  os6: Arto Pieksämäki
+  os7: Valtteri Marjoniemi
+  os8: Heikki Raappana
+- nr: 19
+  nimi: Halsua 1
+  os1: Timo Koskela
+  os2: Teemu Simoinen
+  os3: Iina Koskela
+  os4: Raine Jylhä
+  os5: Hanna-Mari Simpanen
+  os6: Jari Kalliokoski
+  os7: Jani Simoinen
+  os8: Saku Jokela
+- nr: 20
+  nimi: Himanka 2
+  os1: Jarkko Mäkelä
+  os2: Santeri Mäkelä
+  os3: Alissa Oja
+  os4: Jari Kivelä
+  os5: Marjut Hyyppä
+  os6: Antti Tuorila
+  os7: Tuukka Marjala
+  os8: Miikka Ketonen
+- nr: 21
+  nimi: Kalajoki 2
+  os1: Miika Juusola
+  os2: Kalle Himanka
+  os3: Alisa Vuollet
+  os4: Ville Juusola
+  os5: Ella Himanka
+  os6: Elias Valikainen
+  os7: Tuomas Törnvall
+  os8: Osmo Juola
+- nr: 22
+  nimi: Kalajoki 3
+  os1: Kauko Himanka
+  os2: Friida Kivistö
+  os3: Sanni Vuollet
+  os4: Mari Laitala
+  os5: Aija Tilvis
+  os6: Taneli Rahja
+  os7: Jirka Oja
+  os8: Tero Kähtävä
+- nr: 23
+  nimi: Kälviä 1
+  os1: Kimmo Latvamäki
+  os2: Oskari Nissilä
+  os3: Melissa Kykyri
+  os4: Heikki Roimas
+  os5: Johanna Kykyri
+  os6: Timo Pesola
+  os7: Okko Airiola
+  os8: Antti Tuukkanen
+- nr: 24
+  nimi: Kannus 1
+  os1: Veli-Pekka Korpela
+  os2: Miika Mutka
+  os3: Enni Katajalaakso
+  os4: Marko Paavola
+  os5: Eerika Mutka
+  os6: Petri Erkkilä
+  os7: Emma Katajalaakso
+  os8: Jussi Isokoski
+- nr: 25
+  nimi: Kaustinen 1
+  os1: Janne Huhtakangas
+  os2: Mitri Lerssi
+  os3: Veera Huntus
+  os4: Lasse Paavola
+  os5: Saana Peltola
+  os6: Jussi Huhtakangas
+  os7: Jalmari Höglund
+  os8: Tero Myllymäki
+- nr: 26
+  nimi: Kaustinen 2
+  os1: Manu Huntus
+  os2: Santtu Aho
+  os3: Sandra Höglund
+  os4: Pasi Pesola
+  os5: Nuppu Peltoniemi
+  os6: Mikko Kinnunen
+  os7: Elli Myllymäki
+  os8: Juha Lerssi
+- nr: 27
+  nimi: Kokkola 2
+  os1: Jari Sjöström
+  os2: Eeli Hautamäki
+  os3: Liina Viitasaari
+  os4: Tommi Viitasaari
+  os5: Mia-Riitta Hongell
+  os6: Sebastian Kurten Kainberg
+  os7: Alexander Schauman
+  os8: Pasi Nykänen
+- nr: 28
+  nimi: Nivala 2
+  os1: Hannu Tiainen
+  os2: Pietu Tiainen
+  os3: Salla Suni
+  os4: Pekka Ylimäki
+  os5: Kaisa Saarimaa
+  os6: Markku Mehtälä
+  os7: Tuukka Suni
+  os8: Ossi Hautalahti
+- nr: 29
+  nimi: Nivala 3
+  os1: Juhani Kumpusalo
+  os2: Pauli Kivirinta
+  os3: Liinu Tiainen
+  os4: Matti Vähäsöyrinki
+  os5: Anne Haikara
+  os6: Markku Isokoski
+  os7: Aapo Heiskanen
+  os8: Harri Holmström
+- nr: 30
+  nimi: Nykarleby 2
+  os1: Mats Jakobsson
+  os2: Joel Holm
+  os3: Linnéa Granlund
+  os4: Fredric Portin
+  os5: Johanna Skog
+  os6: Toni Wik
+  os7: Cecilia Back
+  os8: Magnus Nyman
+- nr: 31
+  nimi: Nykarleby 3
+  os1: Lars Losvik
+  os2: Johannes Jakobsson
+  os3: Michelle Nyback
+  os4: Ronny Wiklund
+  os5: Elin Forsgård
+  os6: Ellinor Sundqvist
+  os7: Amanda Strandvall
+  os8: Bror-Erik Kronqvist
+- nr: 32
+  nimi: Pedersöre 2
+  os1: Jan Grankull
+  os2: Rasmus Huhtamäki
+  os3: Lina Nybacka
+  os4: Tom West
+  os5: Sara Ray
+  os6: Kenneth Hinkka
+  os7: Elin Björk
+  os8: Dan-Olav Spets
+- nr: 33
+  nimi: Pedersöre 3
+  os1: Mårten Häggman
+  os2: Jesper Lindfors
+  os3: Matilda Punsar
+  os4: Herman Hjulfors
+  os5: Marjo Ena
+  os6: Daniel Åbacka
+  os7: Jimmy Westerlund
+  os8: Johan Nylund
+- nr: 34
+  nimi: Pietarsaari 2
+  os1: Hannes Mäenpää
+  os2: Miro Piippolainen
+  os3: Matilda Snellman
+  os4: Pasi Auvinen
+  os5: Janina Enkvist
+  os6: Marko Honkala
+  os7: Erika Westerlund
+  os8: Robin Still
+- nr: 35
+  nimi: Pyhäjärvi 2
+  os1: Matti Luoma-Aho
+  os2: Antti Laukkanen
+  os3: Ada Haapakangas
+  os4: Tuomas Koivisto
+  os5: Elisa Parkkinen
+  os6: Jarkko Päkkilä
+  os7: Roope-Eemeli Huttunen
+  os8: Mikko Kouvalainen
+- nr: 36
+  nimi: Pyhäjärvi 3
+  os1: Jarkko Huttunen
+  os2: Aleksi Kuukasjärvi
+  os3: Eveliina Koistinen
+  os4: Jouni Häkkinen
+  os5: Marjo Kuosmanen
+  os6: Rami Oravakangas
+  os7: Janne Lehtomäki
+  os8: Juha Kuosmanen
+- nr: 37
+  nimi: Reisjärvi 2
+  os1: Janne Kivelä
+  os2: Roni Kinnunen
+  os3: Ellinora Parkkila
+  os4: Teijo Haapaniemi
+  os5: Piia Leppälä
+  os6: Kari Kinnunen
+  os7: Rita Kinnunen
+  os8: Teemu Leppälä
+- nr: 38
+  nimi: Sievi 1
+  os1: Hannu Paaso
+  os2: Leevi Virkkala
+  os3: Nita Paaso
+  os4: Ravinder Kohtaniemi
+  os5: Miia Säilynoja
+  os6: Jussi Mökkönen
+  os7: Ville Vesaluoma
+  os8: Miska Poikkimäki
+- nr: 39
+  nimi: Sievin Kunta 2
+  os1: Jari Sikkilä
+  os2: Jenni Kukkola
+  os3: Miina Koivisto
+  os4: Naveen Kohtaniemi
+  os5: Karoliina Hosionaho
+  os6: Juho Ruuttula
+  os7: Ella Virkkala
+  os8: Janne Salonen
+- nr: 40
+  nimi: Toholampi 1
+  os1: Timo Hakala
+  os2: Rasmus Remesaho
+  os3: Helmi Kulju
+  os4: Roni Etelämäki
+  os5: Tiina Mäntypuro
+  os6: Mikko Peltokangas
+  os7: Roope Etelämäki
+  os8: Janne Huhtala
+- nr: 41
+  nimi: Veteli 2
+  os1: Ari Takala
+  os2: Atte Taipale
+  os3: Sofia Huusko
+  os4: Henri Lassila
+  os5: Elina Huusko
+  os6: Jari Mäkelä
+  os7: Aaro Åivo
+  os8: Ari-Pekka Lassila
+- nr: 42
+  nimi: Ylivieska 2
+  os1: Juha Tienhaara
+  os2: Jarkko Reijonen
+  os3: Enni-Sofia Saari
+  os4: Jukka Timlin
+  os5: Julia Korkiakoski
+  os6: Jarmo Nivala
+  os7: Tatu Junno
+  os8: Tuomas Saari
+- nr: 43
+  nimi: Ylivieska 3
+  os1: Jori Saarela
+  os2: Eetu Paananen
+  os3: Terhi Junno
+  os4: Antti Vilkuna
+  os5: Hanna Hangasmaa
+  os6: Kari Nivala
+  os7: Jesper Ojala
+  os8: Teemu Raudaskoski
+- nr: 44
+  nimi: Kokkola yhdistelmäjoukkue
+  os1: Teemu Orjala
+  os2: Oliver Dalhem
+  os3: Anni Peltoniemi
+  os4: Veikka Heinonen
+  os5: Päivi Peltoniemi
+  os6: Timo Hongell
+  os7: Kevin Lillhonga
+  os8: Leander Lillhonga
+- nr: 45
+  nimi: Kronoby 2
+  os1: Johnny Sjölind
+  os2: Gustav Forsell
+  os3: Ida Emmes
+  os4: Anton Storvall
+  os5: Ronja Kainberg
+  os6: Tommy Brännkärr
+  os7: Antonia Svenlin
+  os8: Andre Haga
+- nr: 46
+  nimi: Kronoby 3
+  os1: Sebastian Dahlbacka
+  os2: Lucas Hansen
+  os3: Janica Hahtokari
+  os4: Ove Snåre
+  os5: Maria Grundvall
+  os6: Matias Forsbacka
+  os7: Mickel Forsell
+  os8: Mats Strandvall
+- nr: 47
+  nimi: Kronoby 4
+  os1: Patrik Skog
+  os2: Amanda Hansen
+  os3: Clara Granholm
+  os4: Tommy From
+  os5: Ellen Myrskog
+  os6: Stefan Åbacka
+  os7: Lotta Emmes
+  os8: Sven-Erik Libäck
+- nr: 48
+  nimi: Kronoby 5
+  os1: Kim Stranden
+  os2: Alexander Storrank
+  os3: Ada Brännkärr
+  os4: Peter Granbacka
+  os5: Linnea Myrskog
+  os6: Claes-Göran Brännkärr
+  os7: Edvin Brännkärr
+  os8: Andreas Byfält
