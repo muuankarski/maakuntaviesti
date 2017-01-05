@@ -6,3 +6,4 @@ _site/
 *.Rmd
 *.Rproj
 _data/*.RDS
+run.R
