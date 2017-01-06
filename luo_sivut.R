@@ -41,12 +41,12 @@ osuus <- pisteet$osuus[cc]
 jarj <- pisteet$jarj[cc]
 km <- pisteet$km[cc]
 
-ostulos <- tulos_df[tulos_df$pisteid == cc, ]
+ostulos <- tulos_df[tulos_df$paikka == cc, ]
 osjoukkue <- joukkue[joukkue$osuus == osuus, ]
-ostulos$hiihtaja <- osjoukkue$hiihtaja[match(ostulos$nr, osjoukkue$nr)]
-ostulos$joukkue <- osjoukkue$nimi[match(ostulos$nr, osjoukkue$nr)]
+ostulos$nimi <- osjoukkue$nimi[match(ostulos$nr, osjoukkue$nro)]
+ostulos$joukkue <- osjoukkue$joukkue[match(ostulos$nr, osjoukkue$nro)]
 ostulos$time <- as.POSIXct(ostulos$aika, format="%H:%M:%S")
-tbl <- ostulos %>% select(sija,nr,hiihtaja,joukkue,aika)
+tbl <- ostulos %>% select(nro,nimi,joukkue,aika)
 ',
 'knitr::kable(tbl,  "html", table.attr=',"'class=",'"table table-striped table-hover"',"',row.names=FALSE)
 ```"

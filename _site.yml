@@ -59,7 +59,7 @@ navbar:
       href: http://markuskainu.fi
 output:
   html_document:
-    theme: united
+    theme: yeti
     highlight: textmate
 #    include:
 #      after_body: footer.html
