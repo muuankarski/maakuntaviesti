@@ -3,12 +3,12 @@ navbar:
   title: "etusivu"
   type: inverse
   left:           
-#  right:
+  right:
 #    - text: "Mistä on kyse?"
 #      img: plot/kela_logo.svg
 #      href: about.html
-#    - icon: fa-info
-#      href: http://markuskainu.fi
+   - icon: fa-code
+     href: https://github.com/muuankarski/maakuntaviesti
 output:
   html_document:
     theme: yeti

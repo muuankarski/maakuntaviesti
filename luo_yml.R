@@ -65,12 +65,12 @@ if (9 %in% akt_p){'
 if (10 %in% akt_p){'
      - text: "6.8 km"
        href:  piste10.html'},'
-#  right:
+right:
 #    - text: "Mistä on kyse?"
 #      img: plot/kela_logo.svg
 #      href: about.html
-#    - icon: fa-info
-#      href: http://markuskainu.fi
+   - icon: fa-info
+     href: https://github.com/muuankarski/maakuntaviesti
 output:
   html_document:
     theme: yeti
