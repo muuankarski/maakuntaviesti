@@ -14,7 +14,6 @@ tbl %>% filter(grepl("[0-9]",nro)) %>%
   group_by(nro) %>% mutate(osuus=row_number()) %>% ungroup() -> joukkue
 saveRDS(joukkue, "./_data/joukkue.RDS")
 
-
 # valiaikapisteet
 d_list <- yaml::yaml.load_file("./_data/pisteet.yml")
 pisteet <- plyr::ldply (d_list, data.frame, stringsAsFactors=FALSE)
