@@ -1,6 +1,10 @@
 # Keskipohjanmaan maakuntaviestin epävirallinen väliaikapalvelu
 
-Yksinkertainen tulospalvelujärjestelmä käsiajanottoon. Kahden illan projekti. Saa kehittää ken viitsii!
+- Yksinkertainen tulospalvelujärjestelmä käsiajanottoon
+
+- Kahden illan projekti
+
+- Saa kehittää ken viitsii!
 
 ## teknologiat
 
