@@ -1,10 +1,11 @@
-
 source("./process_data.R")
 source("./luo_sivut.R")
+source("./luo_yml.R")
 
 system('rsync -avzhe "ssh -i /home/aurelius/avaimet/ibm64-rsync-key" --progress --delete  ~/btsync/mk/web/vetu/maakuntaviesti/_site/ muuankarski@kapsi.fi:sites/online.vetu.fi/www/')
 
-file.remove(list.files(path = "./", pattern = ".Rmd", full.names = TRUE))
+rmds <- list.files(path = "./", pattern = ".Rmd", full.names = TRUE)
+file.remove(rmds[!grepl("index", rmds)])
 
 
 # Jari 0400-755737

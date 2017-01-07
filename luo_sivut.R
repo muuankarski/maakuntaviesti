@@ -1,17 +1,22 @@
+joukkue <- readRDS("./_data/joukkue.RDS")
+pisteet <- readRDS("./_data/pisteet.RDS")
+tulos_df <- readRDS("./_data/tulos_df.RDS")
 
+akt_paikat <- na.omit(tulos_df)
+akt_p <- as.numeric(unique(akt_paikat$paikka))
 
-for (cc in pisteet$id){
+for (cc in akt_p){
 filename <- paste0("piste",cc,".Rmd")
 file.create(filename)  
 
 osuus <- pisteet$osuus[cc]
-jarj <- pisteet$jarj[cc]
+jarj <- pisteet$id[cc]
 km <- pisteet$km[cc]
 
 
 cat(paste0(
 '---
-title: ""
+title: "Osuus ',osuus,' väliaika ',jarj,' kohdassa ',km,' km"
 output: html_document
 #toc: true
 #toc_float: true
@@ -34,12 +39,11 @@ joukkue <- readRDS("./_data/joukkue.RDS")
 pisteet <- readRDS("./_data/pisteet.RDS")
 tulos_df <- readRDS("./_data/tulos_df.RDS")
 ```
+#  {.tabset}
 
-# Osuus ',osuus,' väliaika ',jarj,' kohdassa ',km,' km {.tabset}    
+`päivitetty: `r Sys.time()``
 
-``r Sys.time()``
-
-## Kokonais
+## Kokonaistilanne
 
 ```{r, echo=FALSE}
 cc <- ',cc,'
@@ -58,7 +62,8 @@ ostulos$time <- as.POSIXct(ostulos$aika, format="%H:%M:%S")
 ostulos %>% mutate(ero = time - time[1]) -> ostulos
 ostulos$ero <- format(.POSIXct(ostulos$ero), "%M:%S")
 ostulos <- na.omit(ostulos)
-tbl <- ostulos %>% select(nro,nimi,joukkue,sarja,ero)
+ostulos$sija <- 1:nrow(ostulos)
+tbl <- ostulos %>% select(sija,nro,nimi,joukkue,sarja,ero)
 ',
 'knitr::kable(tbl,  "html", table.attr=',"'class=",'"table table-striped table-hover"',"',row.names=FALSE)
 ```
@@ -72,7 +77,8 @@ ostulos$time <- as.POSIXct(ostulos$aika, format="%H:%M:%S")
 ostulos %>% mutate(ero = time - time[1]) -> ostulos
 ostulos$ero <- format(.POSIXct(ostulos$ero), "%M:%S")
 ostulos <- na.omit(ostulos)
-tbl <- ostulos %>% select(nro,nimi,joukkue,sarja,aika,ero)
+ostulos$sija <- 1:nrow(ostulos)
+tbl <- ostulos %>% select(sija,nro,nimi,joukkue,sarja,ero)
 ',
 'knitr::kable(tbl,  "html", table.attr=',"'class=",'"table table-striped table-hover"',"',row.names=FALSE)
 ```
@@ -86,7 +92,8 @@ ostulos$time <- as.POSIXct(ostulos$aika, format="%H:%M:%S")
 ostulos %>% mutate(ero = time - time[1]) -> ostulos
 ostulos$ero <- format(.POSIXct(ostulos$ero), "%M:%S")
 ostulos <- na.omit(ostulos)
-tbl <- ostulos %>% select(nro,nimi,joukkue,sarja,aika,ero)
+ostulos$sija <- 1:nrow(ostulos)
+tbl <- ostulos %>% select(sija,nro,nimi,joukkue,sarja,ero)
 ',
 'knitr::kable(tbl,  "html", table.attr=',"'class=",'"table table-striped table-hover"',"',row.names=FALSE)
 ```
