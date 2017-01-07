@@ -7,7 +7,7 @@ navbar:
 #    - text: "Mistä on kyse?"
 #      img: plot/kela_logo.svg
 #      href: about.html
-   - icon: fa-code
+   - icon: fa-info
      href: https://github.com/muuankarski/maakuntaviesti
 output:
   html_document:

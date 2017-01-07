@@ -1,12 +1,10 @@
 # Keskipohjanmaan maakuntaviestin epävirallinen väliaikapalvelu
 
 - Yksinkertainen tulospalvelujärjestelmä käsiajanottoon
-
 - Kahden illan projekti
-
 - Saa kehittää ken viitsii!
 
-## teknologiat
+## Teknologiat
 
 - tulosten syöttäminen: [libreoffice calc](https://fi.libreoffice.org/tutustu/calc/)
 - datan prosessointi + verkkosivun generointi: [R](https://www.r-project.org/) + [rmarkdown](http://rmarkdown.rstudio.com/) & [tidyverse](http://tidyverse.org/)-paketit
@@ -14,4 +12,4 @@
 
 **Markus Kainu** <markuskainu@gmail.com>
 
-- lisenssi: (MIT)[https://opensource.org/licenses/MIT]
+- lisenssi: [MIT](https://opensource.org/licenses/MIT)
