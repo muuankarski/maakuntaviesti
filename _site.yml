@@ -2,7 +2,45 @@ name: "online.vetu.fi"
 navbar:
   title: "etusivu"
   type: inverse
-  left:           
+  left: 
+   - text: "Osuus 1"
+     menu:
+     - text: "3.8 km"
+       href:  piste1.html 
+     - text: "8.8 km"
+       href:  piste2.html 
+   - text: "Osuus 2"
+     menu:
+     - text: "1.8 km"
+       href:  piste3.html 
+   - text: "Osuus 3"
+     menu:
+     - text: "1.8 km"
+       href:  piste4.html 
+   - text: "Osuus 4"
+     menu:
+     - text: "6.8 km"
+       href:  piste5.html 
+   - text: "Osuus 5"
+     menu:
+     - text: "1.8 km"
+       href:  piste6.html 
+   - text: "Osuus 6"
+     menu:
+     - text: "6.8 km"
+       href:  piste7.html 
+   - text: "Osuus 7"
+     menu:
+     - text: "1.8 km"
+       href:  piste8.html 
+   - text: "Osuus 8"
+     menu:
+     - text: "1.8 km"
+       href:  piste9.html 
+     - text: "6.8 km"
+       href:  piste10.html
+   - text: "Lopputulokset"
+     href:  lopputulokset.html 
   right:
 #    - text: "Mistä on kyse?"
 #      img: plot/kela_logo.svg

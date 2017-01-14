@@ -8,11 +8,11 @@ library(tidyverse)
 
 
 # skreippaa joukkuelista
-# download.file("https://secure.onreg.com/onreg2/users/reports_public.php?id=3533&list=false&type=csv&reportid=2&checksum=a506bc3723826fbc9fd83f3b4698e9d3",destfile = "./_data/joukkueet.csv")
-tbl <- read.csv("./_data/joukkueet2.csv", skip = 1)
-tbl %>% filter(grepl("[0-9]",nro)) %>% 
-  group_by(nro) %>% mutate(osuus=row_number()) %>% ungroup() -> joukkue
-saveRDS(joukkue, "./_data/joukkue.RDS")
+# download.file("https://secure.onreg.com/onreg2/users/reports_public.php?id=3533&list=false&type=csv&reportid=2&checksum=a506bc3723826fbc9fd83f3b4698e9d3",destfile = "./_data/joukkueet_2.csv")
+# tbl <- read.csv("./_data/joukkueet_23.csv", skip = 1)
+# tbl %>% filter(grepl("[0-9]",nro)) %>%
+#   group_by(nro) %>% mutate(osuus=row_number()) %>% ungroup() -> joukkue
+# saveRDS(joukkue, "./_data/joukkue.RDS")
 
 # valiaikapisteet
 d_list <- yaml::yaml.load_file("./_data/pisteet.yml")

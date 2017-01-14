@@ -64,7 +64,9 @@ if (9 %in% akt_p){'
        href:  piste9.html'},
 if (10 %in% akt_p){'
      - text: "6.8 km"
-       href:  piste10.html'},'
+       href:  piste10.html
+   - text: "Lopputulokset"
+     href:  lopputulokset.html'},'
   right:
 #    - text: "Mistä on kyse?"
 #      img: plot/kela_logo.svg
